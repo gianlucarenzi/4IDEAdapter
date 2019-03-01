@@ -11,7 +11,7 @@ devices like Hard Drives, DVD Rom Drives and compatible drives.
 This project follow the same DIY project in Aminet.
 
 # Images
-[![](images/4IDEAdatper.png "Board Overall")](#features)
+[![](images/4IDEAdapter.png "Board Overall")](#features)
 [![](images/4IDEAdapter-f.png "Board Front")](#features)
 [![](images/4IDEAdapter-b.png "Board Back")](#features)
 
