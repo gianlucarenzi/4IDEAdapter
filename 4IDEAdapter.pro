@@ -1,4 +1,4 @@
-update=Fri 01 Mar 2019 16:58:21 CET
+update=Fri 01 Mar 2019 22:19:16 CET
 version=1
 last_client=kicad
 [pcbnew]
@@ -298,3 +298,13 @@ LibName266=/home/debian/packages/kicad/kicad-symbols/Transistor_IGBT
 LibName267=/home/debian/packages/kicad/kicad-symbols/Triac_Thyristor
 LibName268=/home/debian/packages/kicad/kicad-symbols/Valve
 LibName269=/home/debian/packages/kicad/kicad-symbols/Video
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=Pcbnew
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60

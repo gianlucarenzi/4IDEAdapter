@@ -30,7 +30,7 @@
     )
     (via "Via[0-1]_600:400_um")
     (rule
-      (width 350)
+      (width 300)
       (clearance 200.1)
       (clearance 200.1 (type default_smd))
       (clearance 50 (type smd_smd))
@@ -522,7 +522,7 @@
         (use_via Via[0-1]_600:400_um)
       )
       (rule
-        (width 350)
+        (width 300)
         (clearance 200.1)
       )
     )
