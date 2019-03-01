@@ -1,0 +1,418 @@
+(pcb /home/debian/Progetti/AMIGA/4IDEAdapter/4IDEAdapter.dsn
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "4.0.2+dfsg1-stable")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  125730 -63500  116840 -63500  116840 -100330  125730 -109220
+            132080 -115570  132080 -121920  133350 -121920  135890 -121920
+            139700 -125730  139700 -132080  140970 -132080  171450 -132080
+            171450 -125730  175260 -121920  180340 -121920  180340 -115570
+            186690 -109220  195580 -100330  195580 -63500  186690 -63500
+            125730 -63500  125730 -63500)
+    )
+    (via "Via[0-1]_600:400_um")
+    (rule
+      (width 350)
+      (clearance 200.1)
+      (clearance 200.1 (type default_smd))
+      (clearance 50 (type smd_smd))
+    )
+  )
+  (placement
+    (component "RetroBitLab:IDC-Header_2x20_P2.54mm_Vertical_Lock"
+      (place scsi.device.bus.2 132080 -71120 front 90 (PN CONN_02X20))
+      (place scsi.device.bus.1 132080 -95250 front 90 (PN CONN_02X20))
+    )
+    (component RetroBitLab:Vertical_IDE_44_Pins_2x22_1.27_PCB
+      (place AMIGA_MOTHERBOARD_1 154940 -129540 front 0 (PN CONN_02X22))
+    )
+    (component Diodes_SMD:SMA_Handsoldering
+      (place D1 165100 -102870 front 0 (PN D))
+      (place D2 165100 -78740 front 0 (PN D))
+    )
+    (component LEDs:LED_1206
+      (place ACT.1 179070 -102870 front 180 (PN LED))
+      (place ACT.2 180340 -78740 front 180 (PN LED))
+    )
+    (component Resistors_SMD:R_1210_HandSoldering
+      (place R1 172720 -102870 front 180 (PN 330))
+      (place R2 173990 -78740 front 180 (PN 330))
+    )
+  )
+  (library
+    (image "RetroBitLab:IDC-Header_2x20_P2.54mm_Vertical_Lock"
+      (outline (path signal 100  -1016 0  -2286 -1016))
+      (outline (path signal 100  -2286 762  -1016 0))
+      (outline (path signal 120  -4318 -254  -3810 0))
+      (outline (path signal 120  -4318 254  -4318 -254))
+      (outline (path signal 120  -3810 0  -4318 254))
+      (outline (path signal 100  5590 10920  -3050 10920))
+      (outline (path signal 100  -3050 10920  -3050 -59180))
+      (outline (path signal 100  -3050 -59180  5590 -59180))
+      (outline (path signal 100  5590 -59180  5590 10920))
+      (outline (path signal 100  -3050 -22350  -2290 -22350))
+      (outline (path signal 100  -2290 -22350  -2290 3810))
+      (outline (path signal 100  -2290 3810  4830 3810))
+      (outline (path signal 100  4830 3810  4830 -52070))
+      (outline (path signal 100  4830 -52070  -2290 -52070))
+      (outline (path signal 100  -2290 -52070  -2290 -25910))
+      (outline (path signal 100  -2290 -25910  -3050 -25910))
+      (outline (path signal 50  5840 11870  5840 -60130))
+      (outline (path signal 50  5840 11870  -3300 11870))
+      (outline (path signal 50  -3300 -60130  5840 -60130))
+      (outline (path signal 50  -3300 -60130  -3300 11870))
+      (outline (path signal 120  5710 11740  5710 -60000))
+      (outline (path signal 120  5710 11740  -3170 11740))
+      (outline (path signal 120  -3170 -60000  5710 -60000))
+      (outline (path signal 120  -3170 -60000  -3170 11740))
+      (pin Rect[A]Pad_1520x1520_um (rotate 270) 1 0 0)
+      (pin Round[A]Pad_1520_um (rotate 270) 2 2540 0)
+      (pin Round[A]Pad_1520_um (rotate 270) 3 0 -2540)
+      (pin Round[A]Pad_1520_um (rotate 270) 4 2540 -2540)
+      (pin Round[A]Pad_1520_um (rotate 270) 5 0 -5080)
+      (pin Round[A]Pad_1520_um (rotate 270) 6 2540 -5080)
+      (pin Round[A]Pad_1520_um (rotate 270) 7 0 -7620)
+      (pin Round[A]Pad_1520_um (rotate 270) 8 2540 -7620)
+      (pin Round[A]Pad_1520_um (rotate 270) 9 0 -10160)
+      (pin Round[A]Pad_1520_um (rotate 270) 10 2540 -10160)
+      (pin Round[A]Pad_1520_um (rotate 270) 11 0 -12700)
+      (pin Round[A]Pad_1520_um (rotate 270) 12 2540 -12700)
+      (pin Round[A]Pad_1520_um (rotate 270) 13 0 -15240)
+      (pin Round[A]Pad_1520_um (rotate 270) 14 2540 -15240)
+      (pin Round[A]Pad_1520_um (rotate 270) 15 0 -17780)
+      (pin Round[A]Pad_1520_um (rotate 270) 16 2540 -17780)
+      (pin Round[A]Pad_1520_um (rotate 270) 17 0 -20320)
+      (pin Round[A]Pad_1520_um (rotate 270) 18 2540 -20320)
+      (pin Round[A]Pad_1520_um (rotate 270) 19 0 -22860)
+      (pin Round[A]Pad_1520_um (rotate 270) 20 2540 -22860)
+      (pin Round[A]Pad_1520_um (rotate 270) 21 0 -25400)
+      (pin Round[A]Pad_1520_um (rotate 270) 22 2540 -25400)
+      (pin Round[A]Pad_1520_um (rotate 270) 23 0 -27940)
+      (pin Round[A]Pad_1520_um (rotate 270) 24 2540 -27940)
+      (pin Round[A]Pad_1520_um (rotate 270) 25 0 -30480)
+      (pin Round[A]Pad_1520_um (rotate 270) 26 2540 -30480)
+      (pin Round[A]Pad_1520_um (rotate 270) 27 0 -33020)
+      (pin Round[A]Pad_1520_um (rotate 270) 28 2540 -33020)
+      (pin Round[A]Pad_1520_um (rotate 270) 29 0 -35560)
+      (pin Round[A]Pad_1520_um (rotate 270) 30 2540 -35560)
+      (pin Round[A]Pad_1520_um (rotate 270) 31 0 -38100)
+      (pin Round[A]Pad_1520_um (rotate 270) 32 2540 -38100)
+      (pin Round[A]Pad_1520_um (rotate 270) 33 0 -40640)
+      (pin Round[A]Pad_1520_um (rotate 270) 34 2540 -40640)
+      (pin Round[A]Pad_1520_um (rotate 270) 35 0 -43180)
+      (pin Round[A]Pad_1520_um (rotate 270) 36 2540 -43180)
+      (pin Round[A]Pad_1520_um (rotate 270) 37 0 -45720)
+      (pin Round[A]Pad_1520_um (rotate 270) 38 2540 -45720)
+      (pin Round[A]Pad_1520_um (rotate 270) 39 0 -48260)
+      (pin Round[A]Pad_1520_um (rotate 270) 40 2540 -48260)
+    )
+    (image RetroBitLab:Vertical_IDE_44_Pins_2x22_1.27_PCB
+      (outline (path signal 150  14732 2032  14732 -3302))
+      (outline (path signal 150  14732 -3302  -13462 -3302))
+      (outline (path signal 150  -13462 -3302  -13462 2032))
+      (outline (path signal 150  -13462 2032  14732 2032))
+      (pin Rect[B]Pad_635x3000_um 2 -12700 -1270)
+      (pin Rect[T]Pad_635x3000_um 1 -12700 -1270)
+      (pin Rect[T]Pad_635x3000_um 3 -11430 -1270)
+      (pin Rect[T]Pad_635x3000_um 5 -10160 -1270)
+      (pin Rect[T]Pad_635x3000_um 7 -8890 -1270)
+      (pin Rect[T]Pad_635x3000_um 9 -7620 -1270)
+      (pin Rect[T]Pad_635x3000_um 11 -6350 -1270)
+      (pin Rect[T]Pad_635x3000_um 13 -5080 -1270)
+      (pin Rect[T]Pad_635x3000_um 15 -3810 -1270)
+      (pin Rect[T]Pad_635x3000_um 17 -2540 -1270)
+      (pin Rect[T]Pad_635x3000_um 19 -1270 -1270)
+      (pin Rect[T]Pad_635x3000_um 21 0 -1270)
+      (pin Rect[T]Pad_635x3000_um 23 1270 -1270)
+      (pin Rect[T]Pad_635x3000_um 25 2540 -1270)
+      (pin Rect[T]Pad_635x3000_um 27 3810 -1270)
+      (pin Rect[T]Pad_635x3000_um 29 5080 -1270)
+      (pin Rect[T]Pad_635x3000_um 31 6350 -1270)
+      (pin Rect[T]Pad_635x3000_um 33 7620 -1270)
+      (pin Rect[T]Pad_635x3000_um 35 8890 -1270)
+      (pin Rect[T]Pad_635x3000_um 37 10160 -1270)
+      (pin Rect[T]Pad_635x3000_um 39 11430 -1270)
+      (pin Rect[T]Pad_635x3000_um 41 12700 -1270)
+      (pin Rect[T]Pad_635x3000_um 43 13970 -1270)
+      (pin Rect[B]Pad_635x3000_um 4 -11430 -1270)
+      (pin Rect[B]Pad_635x3000_um 6 -10160 -1270)
+      (pin Rect[B]Pad_635x3000_um 8 -8890 -1270)
+      (pin Rect[B]Pad_635x3000_um 10 -7620 -1270)
+      (pin Rect[B]Pad_635x3000_um 12 -6350 -1270)
+      (pin Rect[B]Pad_635x3000_um 14 -5080 -1270)
+      (pin Rect[B]Pad_635x3000_um 16 -3810 -1270)
+      (pin Rect[B]Pad_635x3000_um 18 -2540 -1270)
+      (pin Rect[B]Pad_635x3000_um 20 -1270 -1270)
+      (pin Rect[B]Pad_635x3000_um 22 0 -1270)
+      (pin Rect[B]Pad_635x3000_um 24 1270 -1270)
+      (pin Rect[B]Pad_635x3000_um 26 2540 -1270)
+      (pin Rect[B]Pad_635x3000_um 28 3810 -1270)
+      (pin Rect[B]Pad_635x3000_um 30 5080 -1270)
+      (pin Rect[B]Pad_635x3000_um 32 6350 -1270)
+      (pin Rect[B]Pad_635x3000_um 34 7620 -1270)
+      (pin Rect[B]Pad_635x3000_um 36 8890 -1270)
+      (pin Rect[B]Pad_635x3000_um 38 10160 -1270)
+      (pin Rect[B]Pad_635x3000_um 40 11430 -1270)
+      (pin Rect[B]Pad_635x3000_um 42 12700 -1270)
+      (pin Rect[B]Pad_635x3000_um 44 13970 -1270)
+    )
+    (image Diodes_SMD:SMA_Handsoldering
+      (outline (path signal 0  -4000 2000  4000 2000))
+      (outline (path signal 0  4000 2000  4000 -2000))
+      (outline (path signal 0  4000 -2000  -4000 -2000))
+      (outline (path signal 0  -4000 -2000  -4000 2000))
+      (outline (path signal 0  0 0  0 0))
+      (outline (path signal 0  0 0  0 0))
+      (outline (path signal 0  0 0  0 0))
+      (outline (path signal 0  0 0  0 0))
+      (outline (path signal 0  -1000 -1000  -1000 -1000))
+      (outline (path signal 0  -1000 1000  -1000 1000))
+      (outline (path signal 0  2000 -1000  2000 -1000))
+      (outline (path signal 0  -2000 -1000  -2000 -1000))
+      (outline (path signal 0  -2000 1000  -2000 1000))
+      (outline (path signal 0  2000 1000  2000 1000))
+      (outline (path signal 0  -2000 -1000  2000 -1000))
+      (outline (path signal 0  -2000 1000  2000 1000))
+      (pin Rect[T]Pad_3000x1000_um 1 -2000 0)
+      (pin Rect[T]Pad_3000x1000_um 2 2000 0)
+    )
+    (image LEDs:LED_1206
+      (outline (path signal 150  -2150 -1050  1450 -1050))
+      (outline (path signal 150  -2150 1050  1450 1050))
+      (outline (path signal 150  -100 300  -100 -300))
+      (outline (path signal 150  -100 -300  -400 0))
+      (outline (path signal 150  -400 0  -200 200))
+      (outline (path signal 150  -200 200  -200 -50))
+      (outline (path signal 150  -200 -50  -250 0))
+      (outline (path signal 150  -500 500  -500 -500))
+      (outline (path signal 150  0 0  500 0))
+      (outline (path signal 150  -500 0  0 500))
+      (outline (path signal 150  0 500  0 -500))
+      (outline (path signal 150  0 -500  -500 0))
+      (outline (path signal 50  2500 1250  -2500 1250))
+      (outline (path signal 50  -2500 1250  -2500 -1250))
+      (outline (path signal 50  -2500 -1250  2500 -1250))
+      (outline (path signal 50  2500 -1250  2500 1250))
+      (pin Rect[T]Pad_1597.66x1800.86_um (rotate 180) 2 1419.86 0)
+      (pin Rect[T]Pad_1597.66x1800.86_um (rotate 180) 1 -1419.86 0)
+    )
+    (image Resistors_SMD:R_1210_HandSoldering
+      (outline (path signal 0  -3000 1000  3000 1000))
+      (outline (path signal 0  -3000 -1000  3000 -1000))
+      (outline (path signal 0  -3000 1000  -3000 -1000))
+      (outline (path signal 0  3000 1000  3000 -1000))
+      (outline (path signal 0  1000 -1000  -1000 -1000))
+      (outline (path signal 0  -1000 1000  1000 1000))
+      (pin Rect[T]Pad_2000x2000_um 1 -2000 0)
+      (pin Rect[T]Pad_2000x2000_um 2 2000 0)
+    )
+    (padstack Round[A]Pad_1520_um
+      (shape (circle F.Cu 1520))
+      (shape (circle B.Cu 1520))
+      (attach off)
+    )
+    (padstack Rect[B]Pad_635x3000_um
+      (shape (rect B.Cu -317.5 -1500 317.5 1500))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_2000x2000_um
+      (shape (rect F.Cu -1000 -1000 1000 1000))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_3000x1000_um
+      (shape (rect F.Cu -1500 -500 1500 500))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_635x3000_um
+      (shape (rect F.Cu -317.5 -1500 317.5 1500))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_1520x1520_um
+      (shape (rect F.Cu -760 -760 760 760))
+      (shape (rect B.Cu -760 -760 760 760))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1597.66x1800.86_um
+      (shape (rect F.Cu -798.83 -900.43 798.83 900.43))
+      (attach off)
+    )
+    (padstack "Via[0-1]_600:400_um"
+      (shape (circle F.Cu 600))
+      (shape (circle B.Cu 600))
+      (attach off)
+    )
+  )
+  (network
+    (net "Net-(ACT.1-Pad2)"
+      (pins ACT.1-2 R1-1)
+    )
+    (net /A39
+      (pins AMIGA_MOTHERBOARD_1-39 ACT.1-1 scsi.device.bus.1-39)
+    )
+    (net "Net-(ACT.2-Pad2)"
+      (pins ACT.2-2 R2-1)
+    )
+    (net "Net-(ACT.2-Pad1)"
+      (pins scsi.device.bus.2-39 ACT.2-1)
+    )
+    (net /A15
+      (pins scsi.device.bus.2-2 AMIGA_MOTHERBOARD_1-2 scsi.device.bus.1-2)
+    )
+    (net /A1
+      (pins scsi.device.bus.2-1 scsi.device.bus.2-38 AMIGA_MOTHERBOARD_1-1 scsi.device.bus.1-1
+        scsi.device.bus.1-38)
+    )
+    (net /A2
+      (pins scsi.device.bus.2-3 AMIGA_MOTHERBOARD_1-3 scsi.device.bus.1-3)
+    )
+    (net /A3
+      (pins scsi.device.bus.2-5 AMIGA_MOTHERBOARD_1-5 scsi.device.bus.1-5)
+    )
+    (net /A4
+      (pins scsi.device.bus.2-7 AMIGA_MOTHERBOARD_1-7 scsi.device.bus.1-7)
+    )
+    (net /A5
+      (pins scsi.device.bus.2-9 AMIGA_MOTHERBOARD_1-9 scsi.device.bus.1-9)
+    )
+    (net /A6
+      (pins scsi.device.bus.2-11 AMIGA_MOTHERBOARD_1-11 scsi.device.bus.1-11)
+    )
+    (net /A7
+      (pins scsi.device.bus.2-13 AMIGA_MOTHERBOARD_1-13 scsi.device.bus.1-13)
+    )
+    (net /A8
+      (pins scsi.device.bus.2-15 AMIGA_MOTHERBOARD_1-15 scsi.device.bus.1-15)
+    )
+    (net /A9
+      (pins scsi.device.bus.2-17 AMIGA_MOTHERBOARD_1-17 scsi.device.bus.1-17)
+    )
+    (net /A10
+      (pins scsi.device.bus.2-19 AMIGA_MOTHERBOARD_1-19 scsi.device.bus.1-19)
+    )
+    (net /A11
+      (pins scsi.device.bus.2-21 AMIGA_MOTHERBOARD_1-21 scsi.device.bus.1-21)
+    )
+    (net /A12
+      (pins scsi.device.bus.2-23 AMIGA_MOTHERBOARD_1-23 scsi.device.bus.1-23)
+    )
+    (net /A13
+      (pins scsi.device.bus.2-25 AMIGA_MOTHERBOARD_1-25 scsi.device.bus.1-25)
+    )
+    (net /A14
+      (pins scsi.device.bus.2-27 AMIGA_MOTHERBOARD_1-27 scsi.device.bus.1-27)
+    )
+    (net /A29
+      (pins scsi.device.bus.2-29 AMIGA_MOTHERBOARD_1-29 scsi.device.bus.1-29)
+    )
+    (net /A31
+      (pins AMIGA_MOTHERBOARD_1-31 D1-1 D2-1)
+    )
+    (net /A33
+      (pins scsi.device.bus.2-33 AMIGA_MOTHERBOARD_1-33 scsi.device.bus.1-33)
+    )
+    (net /A35
+      (pins scsi.device.bus.2-35 AMIGA_MOTHERBOARD_1-35 scsi.device.bus.1-35)
+    )
+    (net /A37
+      (pins AMIGA_MOTHERBOARD_1-37 scsi.device.bus.1-37)
+    )
+    (net +5V
+      (pins AMIGA_MOTHERBOARD_1-41 AMIGA_MOTHERBOARD_1-42 R1-2 R2-2)
+    )
+    (net GND
+      (pins scsi.device.bus.2-30 scsi.device.bus.2-40 AMIGA_MOTHERBOARD_1-43 AMIGA_MOTHERBOARD_1-30
+        AMIGA_MOTHERBOARD_1-40 scsi.device.bus.1-30 scsi.device.bus.1-40)
+    )
+    (net /A16
+      (pins scsi.device.bus.2-4 AMIGA_MOTHERBOARD_1-4 scsi.device.bus.1-4)
+    )
+    (net /A17
+      (pins scsi.device.bus.2-6 AMIGA_MOTHERBOARD_1-6 scsi.device.bus.1-6)
+    )
+    (net /A18
+      (pins scsi.device.bus.2-8 AMIGA_MOTHERBOARD_1-8 scsi.device.bus.1-8)
+    )
+    (net /A19
+      (pins scsi.device.bus.2-10 AMIGA_MOTHERBOARD_1-10 scsi.device.bus.1-10)
+    )
+    (net /A20
+      (pins scsi.device.bus.2-12 AMIGA_MOTHERBOARD_1-12 scsi.device.bus.1-12)
+    )
+    (net /A21
+      (pins scsi.device.bus.2-14 AMIGA_MOTHERBOARD_1-14 scsi.device.bus.1-14)
+    )
+    (net /A22
+      (pins scsi.device.bus.2-16 AMIGA_MOTHERBOARD_1-16 scsi.device.bus.1-16)
+    )
+    (net /A23
+      (pins scsi.device.bus.2-18 AMIGA_MOTHERBOARD_1-18 scsi.device.bus.1-18)
+    )
+    (net /A24
+      (pins scsi.device.bus.2-20 AMIGA_MOTHERBOARD_1-20 scsi.device.bus.1-20)
+    )
+    (net /A25
+      (pins scsi.device.bus.2-22 AMIGA_MOTHERBOARD_1-22 scsi.device.bus.1-22)
+    )
+    (net /A26
+      (pins scsi.device.bus.2-24 AMIGA_MOTHERBOARD_1-24 scsi.device.bus.1-24)
+    )
+    (net /A27
+      (pins scsi.device.bus.2-26 AMIGA_MOTHERBOARD_1-26 scsi.device.bus.1-26)
+    )
+    (net /A28
+      (pins AMIGA_MOTHERBOARD_1-28 scsi.device.bus.1-28)
+    )
+    (net /A32
+      (pins scsi.device.bus.2-32 AMIGA_MOTHERBOARD_1-32 scsi.device.bus.1-32)
+    )
+    (net /A34
+      (pins AMIGA_MOTHERBOARD_1-34 scsi.device.bus.1-34)
+    )
+    (net /A36
+      (pins scsi.device.bus.2-36 AMIGA_MOTHERBOARD_1-36 scsi.device.bus.1-36)
+    )
+    (net /A38
+      (pins scsi.device.bus.2-37 AMIGA_MOTHERBOARD_1-38)
+    )
+    (net "Net-(D1-Pad2)"
+      (pins D1-2 scsi.device.bus.1-31)
+    )
+    (net "Net-(D2-Pad2)"
+      (pins scsi.device.bus.2-31 D2-2)
+    )
+    (class kicad_default "" +5V /A1 /A10 /A11 /A12 /A13 /A14 /A15 /A16 /A17
+      /A18 /A19 /A2 /A20 /A21 /A22 /A23 /A24 /A25 /A26 /A27 /A28 /A29 /A3
+      /A30 /A31 /A32 /A33 /A34 /A35 /A36 /A37 /A38 /A39 /A4 /A40 /A5 /A6 /A7
+      /A8 /A9 GND "Net-(ACT.1-Pad2)" "Net-(ACT.2-Pad1)" "Net-(ACT.2-Pad2)"
+      "Net-(AMIGA_MOTHERBOARD_1-Pad44)" "Net-(D1-Pad2)" "Net-(D2-Pad2)" "Net-(scsi.device.bus.2-Pad28)"
+      "Net-(scsi.device.bus.2-Pad34)"
+      (circuit
+        (use_via Via[0-1]_600:400_um)
+      )
+      (rule
+        (width 350)
+        (clearance 200.1)
+      )
+    )
+  )
+  (wiring
+  )
+)
