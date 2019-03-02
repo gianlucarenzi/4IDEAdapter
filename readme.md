@@ -22,7 +22,7 @@ May be it can be useful to add a 90-degrees rise connector if the system has som
 [![](images/4IDEAdapter-b.png "Board Back")](#features)
 
 # Whats changed?
-V2.1 Added activity led management
+V2.2 Added Aminet Stuff
 
 # Licence
 This entire project is available under the GNU General Public License v3 licence.
