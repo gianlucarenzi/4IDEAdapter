@@ -1,0 +1,25 @@
+Short:    Connect 4 IDE drivers to your A1200/4000
+Author:   xs@xnet.it
+Uploader: xs@xnet.it
+Type:     hard/hack
+Replaces: 4IDE.lha
+
+Here's to you my little package: 2 pictures to let you build a little
+and cheap (not buffered) interface which lets you connect up to
+4 IDE peripherals (Hd's and CDRoms 2 per IDE line).
+The pictures describe THE SAME interface with different "views".
+You can download IDEFIX to let the SO read the added peripherals.
+I have still 2 Drivers (Hd's) , so don't write me and ask how to configure
+a complex system, I can tell you that it works fine with the principal IDE
+line...
+
+- don't use too long flat cables
+- I suggest you to buy 2 IDE 40 pins male crimping connectors
+
+REMEMBER: the best thing to do is to let somebody else (a techincian) do such a
+work,and a buffered cable is strongly recommended,but my interface is cheap and
+easy to build up..anyway remember that it may not work with some particular
+Hardware or Software configuration (I don't know which...I have an A1200 with
+Blizzard IV 030 50MHz 16M Ram)... see ya!
+
+I am not responsable for any damage this interface may cause to your computer
