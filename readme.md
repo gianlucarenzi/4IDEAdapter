@@ -9,7 +9,7 @@ It must be connected to the IDE 44-pin interface on the motherboard to drive up 
 
 This project follow the same DIY project in Aminet (search 4IDE in docs/hw) or simply check out here:
 
-[Aminet 4IDE Readme] (4IDEAdapter/Aminet-4IDE/4IDE.readme)
+[Aminet 4IDE Readme](4IDEAdapter/Aminet-4IDE/4IDE.readme)
 
 This board has three indipendent activity leds, one for each channel. Moreover the activity leds are merged together in the motherboard so the HDD led nearby the floppy connector can be used as the only activity led.
 
