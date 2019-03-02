@@ -11,7 +11,7 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 4035)
+    (start_pass_no 1534)
     (layer_rule F.Cu
       (active on)
       (preferred_direction vertical)
@@ -63,12 +63,13 @@
     )
   )
   (class "kicad_default"
-    "Net-(ACT.1-Pad2)" /A39 "Net-(ACT.2-Pad2)" "Net-(ACT.2-Pad1)" /A15 /A1 /A2 /A3
-    /A4 /A5 /A6 /A7 /A8 /A9 /A10 /A11
-    /A12 /A13 /A14 /A29 /A31 /A33 /A35 /A37
-    +5V GND /A16 /A17 /A18 /A19 /A20 /A21
-    /A22 /A23 /A24 /A25 /A26 /A27 /A28 /A32
-    /A34 /A36 /A38 "Net-(D1-Pad2)" "Net-(D2-Pad2)" "Net-(ACT.3-Pad2)" "Net-(D3-Pad2)"
+    "Net-(ACT.1-Pad2)" /A39 "Net-(ACT.2-Pad2)" /A15 /A1 /A2 /A3 /A4
+    /A5 /A6 /A7 /A8 /A9 /A10 /A11 /A12
+    /A13 /A14 /A29 /A31 /A33 /A35 /A37 +5V
+    GND /A16 /A17 /A18 /A19 /A20 /A21 /A22
+    /A23 /A24 /A25 /A26 /A27 /A28 /A32 /A34
+    /A36 /A38 "Net-(D1-Pad2)" "Net-(D2-Pad2)" "Net-(ACT.3-Pad2)" "Net-(D3-Pad2)" /A39scsi.1 /A39scsi.2
+    /A39scsi.0 "Net-(U1-Pad5)"
     (clearance_class "kicad_default")
     (via_rule kicad_default)
     (rule
