@@ -14,9 +14,9 @@ This project follow the same DIY project in Aminet (search 4IDE in docs/hw) or s
 # Software
 [Aminet IDE97 Driver](http://aminet.net/driver/media/IDEfix97.lha)
 
-[Aminet IDE97 Turbo Driver] (http://aminet.net/driver/media/IDEfixTURBO.lha)
+[Aminet IDE97 Turbo Driver](http://aminet.net/driver/media/IDEfixTURBO.lha)
 
-[Aminet IDE97 Patches] (http://aminet.net/driver/media/IDEFix_patches.lha)
+[Aminet IDE97 Patches](http://aminet.net/driver/media/IDEFix_patches.lha)
 
 # Hardware Point-Of-View
 This board has three indipendent activity leds, one for each channel. Moreover the activity leds are merged together in the motherboard so the HDD led nearby the floppy connector can be used as the only activity led.
