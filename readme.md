@@ -12,7 +12,7 @@ This project follow the same DIY project in Aminet (search 4IDE in docs/hw) or s
 [Aminet 4IDE Readme](Aminet-4IDE/4IDE.readme)
 
 # Software
-[Aminet IDE97 Driver] http://aminet.net/driver/media/IDEfix97.lha
+[![Aminet IDE97 Driver](http://aminet.net/driver/media/IDEfix97.lha)]
 [Aminet IDE97 Turbo Driver] http://aminet.net/driver/media/IDEfixTURBO.lha
 [Aminet IDE97 Patches] http://aminet.net/driver/media/IDEFix_patches.lha
 
