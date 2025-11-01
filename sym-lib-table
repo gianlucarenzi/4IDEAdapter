@@ -28,5 +28,5 @@
   (lib (name atmel)(type Legacy)(uri /usr/share/kicad/library/atmel.lib)(options "")(descr ""))
   (lib (name contrib)(type Legacy)(uri /usr/share/kicad/library/contrib.lib)(options "")(descr ""))
   (lib (name valves)(type Legacy)(uri /usr/share/kicad/library/valves.lib)(options "")(descr ""))
-  (lib (name AmigaComponents)(type Legacy)(uri /home/debian/Progetti/RetroBitLab-Library/AmigaComponents.lib)(options "")(descr ""))
+  (lib (name RetroBitLab)(type Legacy)(uri /home/debian/Progetti/RetroBitLab-Library/RetroBitLab.lib)(options "")(descr ""))
 )
